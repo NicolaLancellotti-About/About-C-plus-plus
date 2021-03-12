@@ -1,0 +1,27 @@
+add_executable(About_C_plus_plus
+        main.cpp
+        header.h
+        1_basics/01_values_types.cpp
+        1_basics/02_functions.cpp
+        1_basics/03_namespaces.cpp
+        1_basics/04_classes.h
+        1_basics/05_classes.cpp
+        1_basics/06_hierarchies.h
+        1_basics/07_hierarchies.cpp
+        1_basics/08_operators.cpp
+        1_basics/09_exceptions.cpp
+        2_templates/01_templates.cpp
+        2_templates/02_metaprogramming.cpp
+        2_templates/03_manual_control_instantiation_decl.h
+        2_templates/04_manual_control_instantiation_explicit.cpp
+        2_templates/05_manual_control_instantiation.h
+        3_ffi/call_c_from_cpp/cpplib.h
+        3_ffi/call_c_from_cpp/clib.h
+        3_ffi/call_c_from_cpp/clib.c
+        3_ffi/call_cpp_from_c/Person.h
+        3_ffi/call_cpp_from_c/NLPersonRef.h
+        3_ffi/call_cpp_from_c/NLPersonRef.cpp
+        3_ffi/ffi.cpp
+        4_other/01_casts.cpp
+        4_other/02_miscellaneous.cpp
+)
